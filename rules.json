@@ -1,0 +1,9 @@
+{
+  "rules": [
+    { "id": "MAX_LOSSES_PER_SESSION", "value": 3 },
+    { "id": "DAILY_LOSS_LIMIT", "value": 200 },
+    { "id": "MAX_TRADES_PER_SESSION", "value": 6 },
+    { "id": "NO_TRADE_AFTER_LOSS", "minutes": 15 },
+    { "id": "SIZE_LIMIT", "value": 2 }
+  ]
+}
