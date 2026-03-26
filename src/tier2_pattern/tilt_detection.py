@@ -1,6 +1,9 @@
 import argparse
 import pandas as pd
-from load_trades import load_and_preprocess_data
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from core.load_trades import load_and_preprocess_data
 
 def main():
     parser = argparse.ArgumentParser()

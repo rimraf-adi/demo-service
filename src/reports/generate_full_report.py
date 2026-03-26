@@ -4,7 +4,10 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from load_trades import load_and_preprocess_data
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from core.load_trades import load_and_preprocess_data
 import jinja2
 import subprocess
 import os
